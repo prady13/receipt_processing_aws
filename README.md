@@ -1,4 +1,4 @@
-# receipt_processing_aws
+Created a service with AWS Lambda, S3, DynamoDb, SES, and Amazon Textract to ananlyse receipts, and to email it to the user required.
 
 <img width="1423" height="515" alt="Screenshot 2025-11-25 at 7 21 22 PM" src="https://github.com/user-attachments/assets/2541efb5-4ed1-4078-8896-2f26e8d9e012" />
 
