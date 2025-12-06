@@ -1,5 +1,19 @@
 Created a service with AWS Lambda, S3, DynamoDb, SES, and Amazon Textract to ananlyse receipts, and to email it to the user required.
 
+This project focuses on automating receipt processing using AWS services. Instead of manually handling receipts which can be time-consuming, error-prone, and difficult to scale—this system extracts structured data from receipts and stores it efficiently for record-keeping and auditing.
+
+The architecture consists of:
+
+Storage Layer: Amazon S3 stores receipt images and PDFs.
+
+Processing Layer: Amazon Textract extracts text from receipts using AI-powered OCR.
+
+Database Layer: DynamoDB stores the extracted data in a structured format.
+
+Notification System: Amazon SES sends email alerts with receipt details.
+
+Compute Layer: AWS Lambda automates the workflow by processing the receipts in real-time.
+
 <img width="1423" height="515" alt="Screenshot 2025-11-25 at 7 21 22 PM" src="https://github.com/user-attachments/assets/2541efb5-4ed1-4078-8896-2f26e8d9e012" />
 
 
