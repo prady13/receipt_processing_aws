@@ -34,6 +34,7 @@ IAM Roles & Policies: Ensures secure access between services. [Security]
 
 
 <img width="1440" height="455" alt="Screenshot 2025-11-25 at 7 22 44 PM" src="https://github.com/user-attachments/assets/9f0c0c28-9753-40d2-84ee-e3cd1363ba15" />
+Will store the receipt data in a structured format.
 
 
 <img width="1440" height="515" alt="Screenshot 2025-11-25 at 7 27 33 PM" src="https://github.com/user-attachments/assets/714a8351-45ae-4fe1-9e58-a5d5b32c7bf5" />
