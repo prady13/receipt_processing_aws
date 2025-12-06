@@ -14,6 +14,21 @@ Notification System: Amazon SES sends email alerts with receipt details.
 
 Compute Layer: AWS Lambda automates the workflow by processing the receipts in real-time.
 
+
+
+Services Used 🛠️
+Amazon S3: Stores uploaded receipt images and PDFs. [Storage]
+
+Amazon Textract: Extracts text and structured data from scanned receipts. [AI/ML]
+
+Amazon DynamoDB: Stores extracted receipt data in a structured format. [Database]
+
+Amazon SES: Sends email notifications with extracted receipt details. [Messaging]
+
+AWS Lambda: Automates the processing workflow for real-time execution. [Compute]
+
+IAM Roles & Policies: Ensures secure access between services. [Security]
+
 <img width="1423" height="515" alt="Screenshot 2025-11-25 at 7 21 22 PM" src="https://github.com/user-attachments/assets/2541efb5-4ed1-4078-8896-2f26e8d9e012" />
 
 
