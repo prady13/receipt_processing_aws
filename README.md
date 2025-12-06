@@ -16,7 +16,8 @@ Compute Layer: AWS Lambda automates the workflow by processing the receipts in r
 
 
 
-Services Used 🛠️
+Services Used 
+
 Amazon S3: Stores uploaded receipt images and PDFs. [Storage]
 
 Amazon Textract: Extracts text and structured data from scanned receipts. [AI/ML]
